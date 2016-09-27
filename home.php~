@@ -1,0 +1,34 @@
+<!Doctype html>
+<head>
+<title>Anonymous site</title>
+</head>
+<body>
+
+<! creating class ---->
+
+<ul class="cb-slideshow">
+	<li>
+		<span>Image 01</span>
+		<div>
+			<h3>CEG</h3>
+		</div>
+	</li>
+	<li><!--...--></li>
+	<li><!--...--></li>
+</ul>
+< first image
+
+.cb-slideshow,
+.cb-slideshow:after { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+.cb-slideshow:after { 
+    content: '';
+    background: transparent url(/opt/lampp/htdocs/anonsite/pattern/index.jpeg) repeat top left; 
+}
+
